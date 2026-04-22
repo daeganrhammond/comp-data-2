@@ -5,7 +5,7 @@ from pathlib import Path
 import pandas as pd
 import streamlit as st
 
-from src.portfolio_comp.config import DATA_DIR, DEFAULT_DATA_PATH, ENV_DATA_PATH, SUPPORTED_EXTENSIONS
+from config import DATA_DIR, DEFAULT_DATA_PATH, ENV_DATA_PATH, SUPPORTED_EXTENSIONS
 
 
 NUMERIC_COLUMNS = [
