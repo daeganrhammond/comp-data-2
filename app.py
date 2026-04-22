@@ -6,8 +6,8 @@ import pandas as pd
 import plotly.express as px
 import streamlit as st
 
-from src.portfolio_comp.config import APP_TITLE, DEFAULT_REFRESH_SECONDS
-from src.portfolio_comp.data_loader import (
+from config import APP_TITLE, DEFAULT_REFRESH_SECONDS
+from data_loader import (
     build_summary,
     compensation_health,
     discover_data_file,
